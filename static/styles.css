@@ -1,0 +1,70 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  /* Login container */
+  .login {
+    max-width: 500px;
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 30px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* White background */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Heading */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px; /* Adjust heading size as needed */
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column; /* Stack inputs vertically */
+    gap: 10px; /* Spacing between form elements */
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px; /* Adjust input text size */
+  }
+  
+  input[type="text"]:focus {
+    outline: none; /* Remove default outline on focus */
+    border-color: #3399ff; /* Blue border on focus */
+  }
+  
+  /* Button styling */
+  button[type="submit"] {
+    background-color: #3399ff; /* Adjust button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px; /* Adjust button text size */
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; /* Smooth transition on hover */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2eafff; /* Darker blue on hover */
+  }
+  
+  /* Prediction text styling */
+  .prediction_text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px; /* Adjust prediction text size */
+  }
+  
